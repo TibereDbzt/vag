@@ -1,0 +1,86 @@
+.cadre .bleu
+{
+  color: #002456;
+}
+.wrap
+{
+max-width:1170px;
+margin-left: auto;
+margin-right: auto;
+}
+.conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.photoverti
+{
+  display: none;
+}
+.images
+{
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.conteneur > div
+{
+  position: relative;
+}
+.demidiv
+{
+  width: 50%;
+}
+.cadre
+{
+  background-color: #ffffff;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  padding: 25px;
+}
+.cadre a
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.cadre h2
+{
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+.photo2
+{
+  width: 50%;
+}
+.photo3
+{
+  width: 50%;
+}
+.images
+{
+  height: auto;
+  width: 100%;
+}
+.photoverti
+{
+  display: none;
+}
+.cadre:hover
+{
+  transform: scale(1.07) translateY(-48%);
+  transition: 0.2s;
+}
+a
+{
+  color: inherit;
+}

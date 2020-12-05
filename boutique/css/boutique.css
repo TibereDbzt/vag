@@ -1,0 +1,82 @@
+.cadre .bleu
+{
+  color: #002456;
+}
+hr
+{
+  height: 1px;
+  background-color: #fff;
+  border:0 none;
+}
+.wrap
+{
+max-width:1170px;
+margin-left: auto;
+margin-right: auto;
+}
+.nav
+{
+  margin-left: 50px;
+}
+.nav p
+{
+  color: #002456;
+  margin-top: 40px;
+}
+.nav p span
+{
+  color: #fff;
+  font-weight: 300;
+}
+.nav h2
+{
+  font-weight: 200;
+  font-size: 3em;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.conteneur
+{
+  width: 100.1%;
+  background-color: #ffffff;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.ligne
+{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+a:link
+{
+  text-decoration: none;
+}
+.conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bloc
+{
+  display: block;
+  width: calc(100% / 3);
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.bloc:hover
+{
+  transform: scale(1.05);
+  transition: 0.1s;
+}
+.bloc img
+{
+  margin-bottom: 20px;
+}
+.bloc h3
+{
+  color: #002456;
+  margin-bottom: 15px;
+}

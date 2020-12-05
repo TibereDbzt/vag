@@ -1,0 +1,27 @@
+header
+{
+  position: relative;
+  text-align: center;
+}
+header .logo
+{
+  margin-top: 5%;
+  margin-bottom: 40px;
+  width: 12%;
+}
+header .menu_sandwich
+{
+  position: absolute;
+  top: 140px;
+  right: 0px;
+}
+header .menu_sandwich .span
+{
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  background: #cdcdcd;
+  z-index: 1;
+}
